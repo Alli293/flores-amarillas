@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="240" viewBox="0 0 32 30" shape-rendering="crispEdges" role="img" aria-label="Gatito pixelado con una flor amarilla">
+  <!-- Cola, cuerpo y patitas -->
+  <path fill="#5d5149" d="M5 18h3v2h2v2H7v-1H4v-2h1zM9 17h14v8H9zM10 24h5v4h-5zM18 24h5v4h-5z"/>
+  <path fill="#8c7a69" d="M10 17h12v7H10zM11 24h3v3h-3zM19 24h3v3h-3zM5 19h3v1h2v1H6v-1H5z"/>
+  <path fill="#bca998" d="M13 18h6v6h-6z"/>
+  <path fill="#e1d1be" d="M14 20h4v4h-4z"/>
+  <!-- Orejas escalonadas y cabeza -->
+  <path fill="#5d5149" d="M9 4h4v2h6V4h4v4h1v8h-2v2H10v-2H8V8h1z"/>
+  <path fill="#8c7a69" d="M10 5h2v3h8V5h2v4h1v6h-2v2H11v-2H9V9h1z"/>
+  <path fill="#bb9a8b" d="M10 6h2v2h-2zM20 6h2v2h-2z"/>
+  <path fill="#a99684" d="M11 9h10v3H11zM10 13h13v2H10z"/>
+  <!-- Mirada, hocico y bigotes -->
+  <path fill="#2d2925" d="M12 11h2v2h-2zM19 11h2v2h-2zM15 14h1v1h-1zM17 14h1v1h-1z"/>
+  <path fill="#fffbed" d="M12 11h1v1h-1zM19 11h1v1h-1z"/>
+  <path fill="#edb0aa" d="M16 13h2v1h-2zM10 14h2v1h-2zM21 14h2v1h-2z"/>
+  <path fill="#5d5149" d="M6 13h4v1H6zM7 15h3v1H7zM23 13h3v1h-3zM23 15h3v1h-3z"/>
+  <!-- Brazo extendido sosteniendo la flor -->
+  <path fill="#5d5149" d="M21 18h5v3h-5z"/>
+  <path fill="#8c7a69" d="M22 18h4v2h-4z"/>
+  <path fill="#6e8b3d" d="M27 14h1v12h-1zM24 21h3v1h-3zM28 23h2v1h-2z"/>
+  <path fill="#f5be24" d="M26 6h3v2h2v5h-2v2h-4v-2h-2V8h3z"/>
+  <path fill="#ffda5d" d="M27 5h2v2h-2zM24 9h2v2h-2zM29 9h2v2h-2zM26 13h3v1h-3z"/>
+  <path fill="#e3a70d" d="M23 10h2v2h-2zM30 10h1v2h-1z"/>
+  <path fill="#7b5524" d="M26 9h3v3h-3z"/>
+</svg>
