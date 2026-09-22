@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Spotify icon" clip-path="url(#clip0_0_65)">
+<path id="Vector" d="M23 46C35.7025 46 46 35.7025 46 23C46 10.2975 35.7025 0 23 0C10.2975 0 0 10.2975 0 23C0 35.7025 10.2975 46 23 46Z" fill="#1ED760"/>
+<path id="Vector_2" d="M12 18C20 15 30 16 37 20" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+<path id="Vector_3" d="M14 24C21 22 29 23 35 26" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+<path id="Vector_4" d="M16 30C21 29 27 30 32 32" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_0_65">
+<rect width="46" height="46" fill="white"/>
+</clipPath>
+</defs>
+</svg>

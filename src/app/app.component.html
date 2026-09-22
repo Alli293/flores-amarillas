@@ -1,0 +1,59 @@
+<main class="experience" [class.reduced-motion]="reducedMotion">
+  <section class="phone" aria-live="polite">
+    @switch (step()) {
+      @case (0) {
+        <div class="scene welcome scene-enter">
+          <h1>Una flor llegó<br>para ti</h1>
+          <div class="halo" aria-hidden="true"></div>
+          <img class="flower flower-bob" src="assets/flower-closed.svg" alt="Una flor amarilla pixelada">
+          <p>Sé que fue ayer…<br>pero esta flor encontró el camino.</p>
+          <button class="primary" type="button" (click)="next()">Toca para recibirla</button>
+        </div>
+      }
+
+      @case (1) {
+        <button class="scene approach scene-enter tap-area" type="button" (click)="next()" aria-label="Continuar la historia">
+          <h1>Mira quién viene…</h1>
+          <span class="golden-path" aria-hidden="true"></span>
+          <img class="cat cat-walk" src="assets/cat-carrying-flower.svg" alt="Gatito pixelado caminando con una flor amarilla">
+          <p>Pasito a pasito,<br>alguien trae algo especial.</p>
+          <small>Continúa tocando la pantalla</small>
+        </button>
+      }
+
+      @case (2) {
+        <div class="scene delivery scene-enter">
+          <h1>Es para ti</h1>
+          <div class="focus-halo" aria-hidden="true"></div>
+          <img class="cat cat-offer" src="assets/cat-offering-flower.svg" alt="Gatito pixelado ofreciendo una flor amarilla">
+          <p>Una flor amarilla para<br>iluminar un poquito tu día.</p>
+          <button class="primary" type="button" (click)="next()">Recibir mi flor</button>
+        </div>
+      }
+
+      @case (3) {
+        <div class="scene dedication scene-enter">
+          <h1>Para nuestra amistad</h1>
+          <article class="message-card">
+            <img class="open-flower" src="assets/flower-open.svg" alt="Flor amarilla abierta">
+            <p>“{{ message() }}”</p>
+          </article>
+
+          <a class="spotify-card" [href]="spotifyUrl" target="_blank" rel="noopener noreferrer">
+            <img src="assets/spotify.svg" alt="">
+            <span><strong>Flores Amarillas · Floricienta</strong><small>Escuchar en Spotify →</small></span>
+          </a>
+
+          <img class="garden" src="assets/pixel-garden.svg" alt="Jardín de flores amarillas pixeladas">
+          <button class="replay" type="button" (click)="restart()">↻ Volver a ver el regalo</button>
+        </div>
+      }
+    }
+
+    <nav class="progress" aria-label="Progreso de la historia">
+      @for (dot of [0, 1, 2, 3]; track dot) {
+        <span [class.active]="dot === step()"></span>
+      }
+    </nav>
+  </section>
+</main>

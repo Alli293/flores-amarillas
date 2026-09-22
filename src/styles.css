@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Pixelify+Sans:wght@600&display=swap');
+
+:root {
+  color-scheme: light;
+  font-family: 'Fredoka', system-ui, sans-serif;
+  background: #f7f2e0;
+  color: #332e1f;
+}
+
+* { box-sizing: border-box; }
+
+html, body { min-height: 100%; margin: 0; }
+
+body { overflow-x: hidden; }
+
+button, a { font: inherit; }
